@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-alibaba
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/alibaba?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 
+  mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.example.model
