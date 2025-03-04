@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/alibaba?useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 
+    password:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.model
